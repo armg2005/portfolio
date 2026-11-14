@@ -1,0 +1,71 @@
+import type { SkillGroup } from '../types/portfolio'
+
+export const skillGroups: SkillGroup[] = [
+  {
+    id: 'languages',
+    title: 'Linguagens',
+    skills: ['Java', 'C#', 'TypeScript', 'JavaScript', 'PHP', 'Python', 'SQL'],
+    emphasis: true,
+  },
+  {
+    id: 'backend',
+    title: 'Backend & frameworks',
+    skills: [
+      'Spring Boot',
+      'Spring Security',
+      'Spring Data JPA',
+      '.NET',
+      'Node.js',
+      'NestJS',
+      'Prisma ORM',
+      'Doctrine ORM',
+      'FastAPI',
+      'Flask',
+      'JWT',
+      'Lombok',
+    ],
+    emphasis: true,
+  },
+  {
+    id: 'databases',
+    title: 'Banco de dados',
+    skills: [
+      'PostgreSQL',
+      'MySQL',
+      'H2 Database',
+      'Modelagem relacional',
+      'Flyway',
+    ],
+  },
+  {
+    id: 'engineering',
+    title: 'Arquitetura & engenharia',
+    skills: [
+      'API REST',
+      'Monolito modular',
+      'Multitenant',
+      'POO',
+      'SOLID',
+      'Padrões de projeto',
+      'Testes automatizados',
+    ],
+  },
+  {
+    id: 'tools',
+    title: 'Ferramentas & métodos',
+    skills: [
+      'Git',
+      'GitHub',
+      'Maven',
+      'IntelliJ IDEA',
+      'VS Code',
+      'Eclipse',
+      'Power BI',
+      'Excel',
+      'Jira',
+      'Scrum',
+      'Kanban',
+      'Spec-Driven Development',
+    ],
+  },
+]
