@@ -82,19 +82,11 @@ function Hero() {
                   onError={() => setProfileUnavailable(true)}
                 />
               )}
-              <div className="profile-caption">
-                <span>Desenvolvedor</span>
-                <strong>Backend &amp; Full Stack</strong>
-              </div>
             </div>
           </TiltCard3D>
           <div className="availability-badge">
             <span className="availability-dot" />
             Disponível
-          </div>
-          <div className="portrait-coordinate" aria-hidden="true">
-            <span>16°10&apos; S</span>
-            <span>42°17&apos; W</span>
           </div>
         </div>
       </div>
