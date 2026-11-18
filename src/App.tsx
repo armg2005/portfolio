@@ -11,8 +11,11 @@ import './portfolio.css'
 function App() {
   return (
     <div className="portfolio-shell">
+      <a className="skip-link" href="#main-content">
+        Pular para o conteúdo
+      </a>
       <Header />
-      <main>
+      <main id="main-content">
         <Hero />
         <Projects />
         <Experience />
